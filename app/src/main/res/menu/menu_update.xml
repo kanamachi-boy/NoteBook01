@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/OP2"
+        android:title="カーソル行を削除"
+        android:orderInCategory="200"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/OP3"
+        android:title="カーソル行前を削除"
+        android:orderInCategory="210"
+        android:showAsAction="never" />
+    <item
+    android:id="@+id/OP4"
+    android:title="カーソル行後を削除"
+    android:orderInCategory="220"
+    android:showAsAction="never" />
+    <item
+        android:id="@+id/OP5"
+        android:title="元に戻す"
+        android:orderInCategory="230"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/OP6"
+        android:title="メインメニューへ"
+        android:orderInCategory="300"
+        android:showAsAction="never" />
+</menu>
